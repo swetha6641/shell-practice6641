@@ -1,4 +1,3 @@
 #!bib/bash
-jn
-vhbb
-bjnj
+
+echo "hello pswetha"
