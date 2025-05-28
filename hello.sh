@@ -1,4 +1,4 @@
-/gg/g/
-hgbn
-gugjhhj
-vhgvhjh
+#!bib/bash
+jn
+vhbb
+bjnj
