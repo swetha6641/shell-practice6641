@@ -3,7 +3,7 @@
 n1=100
 n2=339
 
-time=date{$timstamp}
-echo "job ran at $time"
-sum= {($n1+$n2)}
-echo sum of two veriables is :$sum
+timestamp=$(date)
+echo "job ran at $timestamp"
+sum= $(($n1+$n2))
+echo sum of $n1 & $n2 veriables is :$sum
