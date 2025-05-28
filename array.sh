@@ -1,6 +1,6 @@
 #!bin/bash
 
-class={"a1" "a2" "a3" "a4"}
+class=("a1" "a2" "a3" "a4")
 
 echo "first studenyt is $class[0]"
 echo "third rank is $class[2]"
