@@ -7,14 +7,12 @@ then
    echo " user have root accesss:"
 #chekcing the installled pkgs
 VALIDATE () {
-
     if [ $1-eq 0 ]
     then 
       echo "$2  already intsalled - suucess"
     else 
       echo "$2  already intsalled - fail"
       exit 1
-
 }
 dnf list installed mysql
 if  [ $? -ne 0 ]
