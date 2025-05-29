@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "allvariables psssed to script: $@
+echo "allvariables psssed to script:" $@
