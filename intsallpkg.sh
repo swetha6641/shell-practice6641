@@ -8,3 +8,4 @@ then
 else 
     echo " user doesnt hjave root accesss:"
 fi
+dnf install mysql -y
