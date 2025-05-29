@@ -7,5 +7,6 @@ then
    echo " user have root accesss:"
 else 
     echo " user doesnt hjave root accesss:"
+    exit 1
 fi
 dnf install mysql -y
