@@ -10,3 +10,10 @@ else
     exit 1
 fi
 dnf install mysql -y
+if [ $? eq 0 ]
+then 
+    echo "mysql is installed...hurray"
+else 
+    echo "already installed"
+fi
+
