@@ -13,6 +13,7 @@ VALIDATE () {
     else 
       echo "$2  already intsalled - fail"
       exit 1
+    fi
 }
 dnf list installed mysql
 if  [ $? -ne 0 ]
