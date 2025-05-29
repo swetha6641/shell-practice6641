@@ -20,7 +20,7 @@ if  [ $? -ne 0 ]
 then
      echo "my sql will intsall soon"
     dnf install mysql -y
-    VALIDATE ()
+    VALIDATE $? "mysql"
 else 
     echo "mysql is already intsalled, nothing to do ...!!"
 fi
@@ -30,7 +30,7 @@ if  [ $? -ne 0 ]
 then
      echo "my nginx wil install soon"
     dnf install nginx -y
-    VALIDATE ()
+    VALIDATE $? "nginx"
 else 
     echo "nginx alady intsalled, nothing to do ...!!"
 fi
@@ -40,7 +40,7 @@ if  [ $? -ne 0 ]
 then
      echo "my python3 wil install soon"
     dnf install python3 -y
-    validate ()
+    VALIDATE $? "python3"
 else 
     echo "python3 alrrady instd, nothing to do ...!!"
 fi
