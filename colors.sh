@@ -2,5 +2,5 @@
 
 #execute colors
 
-echo -e "\e[33m hey colors"
+echo -e "\e[33m hey colors \e[0m"
 echo "colors"
