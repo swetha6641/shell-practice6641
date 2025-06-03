@@ -1,9 +1,13 @@
 #!/bin/bash
 
 user=$(id -u)
+R="\e[31m"
+G="\e[32m"
+Y="\e[33m"
+N="\e[0m"
 Log_folder="/var/logs/shellop.log"
 script=$(echo $0 | cut -d "." -f1)
-log_file="$log_folde/$script.log"
+log_file="$log_folder/$script.log"
 
 mkdir -p $log_folder
 echo "script started at :$(date)" &>>$log_file 
