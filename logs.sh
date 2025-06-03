@@ -2,7 +2,7 @@
 
 user=$(id -u)
 Log_folder="/var/logs/shellop.log"
-script=$(echo $0 | cut "." -f1)
+script=$(echo $0 | cut -d "." -f1)
 log_file="$log_folde/$script.log"
 
 mkdir -p $log_folder
