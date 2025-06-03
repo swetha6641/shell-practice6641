@@ -7,9 +7,9 @@ Y="\e[33m"
 N="\e[0m"
 Log_folder="/var/logs/shellop.log"
 script=$(echo $0 | cut -d "." -f1)
-log_file="$log_folder/$script.log"
+log_file="$Log_folder/$script.log"
 
-mkdir -p $log_folder
+mkdir -p $Log_folder
 echo "script started at :$(date)" &>>$log_file 
 if [ $user -ne 0 ]
 then  
