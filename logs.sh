@@ -45,7 +45,7 @@ then
     dnf install nginx -y
     VALIDATE $? "nginx"
 else 
-    echo "nginx alady installed, $Y nothing to do ...!!$N" &>>$log_file 
+    echo -e "nginx alady installed, $Y nothing to do ...!!$N" &>>$log_file 
 fi
 # intsllaing python3
 dnf list installed python3 &>>$log_file 
