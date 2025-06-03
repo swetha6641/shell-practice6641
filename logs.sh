@@ -20,7 +20,7 @@ else
 fi
 #chekcing the installled pkgs
 VALIDATE () {
-    if [ $1-eq 0 ]
+    if [ $1 -eq 0 ]
     then 
       echo  -e "installing $2 is .. $G suucess $N" &>>$log_file  
     else 
