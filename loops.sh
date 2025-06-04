@@ -31,6 +31,7 @@ VALIDATE () {
 }
 for package in ${package[@]}
 do 
+  dnf list installed $package &>>$log_file
   if  [ $? -ne 0 ]
   then
     echo "$package will install soon" | tee -a $log_file 
