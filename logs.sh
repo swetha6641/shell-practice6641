@@ -55,5 +55,5 @@ then
     dnf install python3 -y &>>$log_file 
     VALIDATE $? "python3"
 else 
-    echo  -e "python3 alrrady instd, $N nothing to do ...$N!!" &>>$log_file 
+    echo  -e "python3 alrrady instd, $G nothing to do ...$N!!" &>>$log_file 
 fi
