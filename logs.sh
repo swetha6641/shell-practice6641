@@ -13,7 +13,7 @@ mkdir -p $Log_folder
 echo "script started at :$(date)" | tee -a $log_file 
 if [ $user -ne 0 ]
 then  
-   echo -e "$R error: user have root accesss:$N" | tee -a $log_file  
+   echo -e "$R error: user doesn't have root accesss:$N" | tee -a $log_file  
    exit 1
 else 
    echo "you are running with root access" | tee -a $log_file 
