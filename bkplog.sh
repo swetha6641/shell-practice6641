@@ -10,8 +10,8 @@ SCRIPT_NAME=$(echo $0 | cut -d "." -f1)
 LOG_FILE="$LOGS_FOLDER/backup.log"
 R="\e[31m"
 G="\e[32m"
-Y="\e[33m"
-N="\e[0m"
+Y=""
+N=""
 
 # validate functions takes input as exit status, what command they tried to install
 VALIDATE(){
