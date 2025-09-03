@@ -9,6 +9,5 @@ echo "user name $USER"
 sleep 10 &
 echo "PID of last cmd $!"
 echo "PID of current $$"
-
-
+echo "first arugument : $1"
 
