@@ -1,7 +1,7 @@
 #!/bin/bash
 
 n1=$1
-if [ $n1 -lt 10 ]
+if [ $n1 - lt 10 ]
 then 
     echo "number $n1 is less than 10"
 else 
